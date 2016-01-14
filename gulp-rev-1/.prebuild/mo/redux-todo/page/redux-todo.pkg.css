@@ -1,0 +1,7 @@
+.todoItem {
+  width: 200px;
+  background: url(isomorphic/components/todo/react-ui/TodoItem/assets/todoItem-bg.jpg) no-repeat 100%;
+}
+.todoItem.complete {
+  text-decoration: line-through;
+}

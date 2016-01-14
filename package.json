@@ -1,0 +1,47 @@
+{
+  "name": "gulp-webpack-test",
+  "version": "1.0.0",
+  "description": "test usage in gulp and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophister/gulp-webpack-test.git"
+  },
+  "author": "Jess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophister/gulp-webpack-test/issues"
+  },
+  "homepage": "https://github.com/sophister/gulp-webpack-test#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-extend": "^0.2.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "isomorphic-fetch": "^2.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.3"
+  }
+}
